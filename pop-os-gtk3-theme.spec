@@ -1,5 +1,7 @@
+%global _vpath_srcdir a5e0cc95fba0dacf5f0e4dd476829cd16158adef_groovy
+
 Name:           pop-os-gtk3-theme
-Version:        5.2.0~1599689740~20.10~11b9d22
+Version:        5.3.0~1603307552~20.10~a5e0cc9
 Release:        1%{?dist}
 Summary:        A GTK+ theme for Pop!_OS
 
@@ -16,10 +18,11 @@ BuildRequires:  meson sassc glib2-devel
 A GTK+ theme for Pop!_OS
 
 %changelog
+* Thu Nov 5 2020 Justin Haygood <jhaygood86@gmail.com> - 5.3.0~1603307552~20.10~a5e0cc9
+- Update to 5.3.0
+
 * Wed Sep 23 2020 Justin Haygood <jhaygood86@gmail.com> - 5.2.0~1599689740~20.10~11b9d22
 - Initial version of the package
-
-%global _vpath_srcdir 11b9d2254a7e2506e14f42f77dc9d54095066175_groovy
 
 %prep
 %autosetup -c
